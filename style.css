@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    background-color: rgb(204, 225, 237);
+}
+.head{
+    width: 100%;
+    height: 10%;
+}
+.head-text{
+    font-size: 4vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pacifico', sans-serif;
+}
+.main{
+    width: 100%;
+    height: 80%;
+}
+.main form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 5%;
+}
+.main form input{
+    font-size: 2.5vw;
+    text-align: center;
+    border: 3px solid rgb(97, 97, 148);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#btnn{
+    font-size: 2.8vw;
+    text-align: center;
+    border: 2px solid rgb(97, 97, 148);
+    border-radius: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer{
+    width: 100%;
+    height:10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color:black ;
+    color: white;
+    
+}
+.footer p{
+    font-size: 1.8vw;
+}
+#hello{
+    margin-top: 4%;
+    font-size: 2.5vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#bello{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 2.8vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@media screen and (max-width: 991px) {
+    #btnn{
+        font-size: 3.9vw;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    .head-text{
+            font-size: 5.8vw;
+        }
+    .main form input{
+            font-size: 2.5vw;
+            text-align: center;
+            border: 3px solid rgb(97, 97, 148);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            
+        }
+    #hello{
+            font-size: 3.8vw;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            margin-top: 3%;
+        }
+    #bello{
+        margin-top: 2%;
+            text-align: center;
+            font-size: 3.8vw;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+}
+@media screen and (max-width: 767px) {
+    .head-text{
+        font-size: 7.5vw;
+    }
+    #btnn{
+        font-size: 3.5vw;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    .main form input{
+            font-size: 3.8vw;
+            text-align: center;
+            border: 3px solid rgb(97, 97, 148);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    #hello{
+            font-size: 3.8vw;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            margin-top: 3%;
+        }
+    #bello{
+        margin-top: 2%;
+            text-align: center;
+            font-size: 3.8vw;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    .footer p{
+        font-size: 3.5vw;
+    }
+
+}
+@media screen and (max-width: 479px) {
+    .head-text{
+        font-size: 8.5vw;
+    }
+    #btnn{
+        font-size: 5.5vw;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    .main form input{
+            font-size: 5vw;
+            text-align: center;
+            border: 3px solid rgb(97, 97, 148);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    #hello{
+            font-size: 5.8vw;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            margin-top: 3%;
+        }
+    #bello{
+        margin-top: 2%;
+            text-align: center;
+            font-size: 5.8vw;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+}
